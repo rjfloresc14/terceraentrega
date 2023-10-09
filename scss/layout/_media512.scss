@@ -1,0 +1,27 @@
+@media (max-width: 700px){
+    header{
+        max-height: 350px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        .logo img{
+            flex-direction: column;
+            text-align: center;
+        }
+        .navbar{
+            max-height: 350px;
+            flex-direction: column;
+            text-align: center;
+            }
+    }
+}
+
+@media (max-width: 700px){
+    .container-login{
+        max-width: 350px;
+        max-height: 525px;
+        h1{
+            font-size: 1.8em;
+        }
+    }
+}

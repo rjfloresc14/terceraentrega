@@ -1,0 +1,13 @@
+
+    @mixin textos{
+        width: 60%;
+        margin: auto;
+    .programs{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    }
+.container-programs{
+    @include textos;
+
+}

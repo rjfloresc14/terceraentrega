@@ -1,0 +1,36 @@
+.id-menu{
+    max-height: 700px;
+
+    h2{
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+    .container-cards{
+        max-width: 75rem;
+        max-height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .cards{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 2.9375rem;
+            width: 13rem;
+            height: 13rem;
+                img{
+                    width: 100%;    
+                }
+        }
+    }
+}
+
+
+
